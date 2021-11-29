@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_right": 15,
+  "bbox_top": 5,
+  "bbox_bottom": 10,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8e9d050d-90f6-419e-9565-47f3d111b052","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8e9d050d-90f6-419e-9565-47f3d111b052","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},"LayerId":{"name":"7ab70ed9-e64f-48d9-8fdf-3dcd15846abf","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_player_placeholder","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},"resourceVersion":"1.0","name":"8e9d050d-90f6-419e-9565-47f3d111b052","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7c929216-bc50-444c-af07-6a321086358b","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7c929216-bc50-444c-af07-6a321086358b","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},"LayerId":{"name":"92c919cf-aa3f-4c02-85dc-cc91a6bc9576","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_anubis_laser","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},"resourceVersion":"1.0","name":"7c929216-bc50-444c-af07-6a321086358b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_player_placeholder","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},
+    "spriteId": {"name":"spr_anubis_laser","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6a7f6822-b9a0-4491-be90-20a588d07a40","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e9d050d-90f6-419e-9565-47f3d111b052","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bf1df77a-a370-4978-8c2c-1f9a4d2d119e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c929216-bc50-444c-af07-6a321086358b","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_player_placeholder","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},
+    "parent": {"name":"spr_anubis_laser","path":"sprites/spr_anubis_laser/spr_anubis_laser.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_player_placeholder",
+    "name": "spr_anubis_laser",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7ab70ed9-e64f-48d9-8fdf-3dcd15846abf","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"92c919cf-aa3f-4c02-85dc-cc91a6bc9576","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_player_placeholder",
+  "name": "spr_anubis_laser",
   "tags": [],
   "resourceType": "GMSprite",
 }

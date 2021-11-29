@@ -1,11 +1,7 @@
 function execute_melee(){
-	if (instance_exists(obj_melee))
+	if (!instance_exists(obj_melee))
 	{
-		melee = 1;
-	}
-	else
-	{		
-		instance_create_depth( 545, 515, 1, obj_melee);
+		instance_create_depth( 535, 515, 1, obj_melee);
 	}
 }
 

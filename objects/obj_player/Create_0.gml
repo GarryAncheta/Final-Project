@@ -11,3 +11,7 @@ health_bar_x = camera_get_view_x( 0 ) + 32;
 health_bar_y = camera_get_view_y( 0 ) + 32;
 health_bar_scale_x = 6;
 health_bar_scale_y = 1;
+
+// state
+
+curr_state = PLAYERSTATE.DEFAULT;

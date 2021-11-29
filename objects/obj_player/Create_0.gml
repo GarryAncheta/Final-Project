@@ -7,7 +7,7 @@ walk_spd = 4;
 curr_health = 100;
 max_health = 100; 
 
-health_bar_x = camera_get_view_x( 0 ) - 328
-health_bar_y = camera_get_view_y( 0 ) - 208;
-health_bar_scale_x = 4;
-health_bar_scale_y = 2;
+health_bar_x = camera_get_view_x( 0 ) + 32;
+health_bar_y = camera_get_view_y( 0 ) + 32;
+health_bar_scale_x = 6;
+health_bar_scale_y = 1;

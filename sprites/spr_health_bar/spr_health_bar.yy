@@ -68,9 +68,9 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9306dc53-4f4c-437f-90af-9951e00922e9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
-    "left": 3,
+    "left": 2,
     "top": 9,
-    "right": 10,
+    "right": 9,
     "bottom": 9,
     "guideColour": [
       4294902015,
@@ -80,7 +80,7 @@
     ],
     "highlightColour": 1728023040,
     "highlightStyle": 0,
-    "enabled": false,
+    "enabled": true,
     "tileMode": [
       0,
       0,

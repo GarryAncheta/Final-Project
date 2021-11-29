@@ -1,0 +1,1 @@
+camSmooth = 0.05;

@@ -1,5 +1,12 @@
 function execute_melee(){
-	
+	if (instance_exists(obj_melee))
+	{
+		melee = 1;
+	}
+	else
+	{		
+		instance_create_depth( 545, 515, 1, obj_melee);
+	}
 }
 
 function execute_venom(){
@@ -39,5 +46,5 @@ function execute_venom(){
 }
 
 function execute_laser(){
-	
+	instance_create_depth(700, 200, 8, obj_laser);
 }

@@ -7,5 +7,6 @@ if(can_shoot)
 			speed = 10;
 			image_angle = point_direction(x, y, obj_player.x, obj_player.y);
 		}
+		playLaserSound();
 	}
 alarm[0] = fire_rate;

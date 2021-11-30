@@ -15,9 +15,12 @@
   "layers": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":512.0,"resourceVersion":"1.0","name":"inst_4A9C9E21","tags":[],"resourceType":"GMRInstance",},
 =======
+=======
+>>>>>>> parent of d8356a7 (enemy collision fix)
 =======
 >>>>>>> parent of d8356a7 (enemy collision fix)
     {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Shots","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -74,6 +77,9 @@
 =======
     {"name":"inst_45628A1A","path":"rooms/rm_first_level/rm_first_level.yy",},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d8356a7 (enemy collision fix)
+=======
 >>>>>>> parent of d8356a7 (enemy collision fix)
 =======
 >>>>>>> parent of d8356a7 (enemy collision fix)

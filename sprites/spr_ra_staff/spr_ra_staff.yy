@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Weapons",
+    "path": "folders/Sprites/Player Character/Weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ra_staff",

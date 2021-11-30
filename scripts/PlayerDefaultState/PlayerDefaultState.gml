@@ -17,7 +17,8 @@ if( instance_exists( obj_player ) )
 	{
 		if( jump )
 		{
-			vert_spd = -7;	
+			vert_spd = -7;
+			playJumpSound();
 		}
 		else
 		{

@@ -14,9 +14,9 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_mummy","path":"objects/obj_mummy/obj_mummy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":832.0,"resourceVersion":"1.0","name":"inst_518904E0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_anubis","path":"objects/obj_anubis/obj_anubis.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":832.0,"resourceVersion":"1.0","name":"inst_1F318E98","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_scarab","path":"objects/obj_scarab/obj_scarab.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":832.0,"resourceVersion":"1.0","name":"inst_6810FBF0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_mummy","path":"objects/obj_mummy/obj_mummy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":832.0,"resourceVersion":"1.0","name":"inst_60B32524","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_scarab","path":"objects/obj_scarab/obj_scarab.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":832.0,"resourceVersion":"1.0","name":"inst_2B8CDE05","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_anubis","path":"objects/obj_anubis/obj_anubis.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":832.0,"resourceVersion":"1.0","name":"inst_36411B7C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Shots","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":800.0,"resourceVersion":"1.0","name":"inst_4A9C9E21","tags":[],"resourceType":"GMRInstance",},
@@ -47,7 +47,7 @@
     {"spriteId":{"name":"spr_back_desert_bg","path":"sprites/spr_back_desert_bg/spr_back_desert_bg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Back_BG","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_first_level/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_1E8101CB","path":"rooms/rm_first_level/rm_first_level.yy",},
@@ -62,9 +62,9 @@
     {"name":"inst_392950CB","path":"rooms/rm_first_level/rm_first_level.yy",},
     {"name":"inst_566BA46C","path":"rooms/rm_first_level/rm_first_level.yy",},
     {"name":"inst_45628A1A","path":"rooms/rm_first_level/rm_first_level.yy",},
-    {"name":"inst_518904E0","path":"rooms/rm_first_level/rm_first_level.yy",},
-    {"name":"inst_1F318E98","path":"rooms/rm_first_level/rm_first_level.yy",},
-    {"name":"inst_6810FBF0","path":"rooms/rm_first_level/rm_first_level.yy",},
+    {"name":"inst_60B32524","path":"rooms/rm_first_level/rm_first_level.yy",},
+    {"name":"inst_2B8CDE05","path":"rooms/rm_first_level/rm_first_level.yy",},
+    {"name":"inst_36411B7C","path":"rooms/rm_first_level/rm_first_level.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

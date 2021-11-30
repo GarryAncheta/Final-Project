@@ -13,18 +13,40 @@ if( instance_exists( obj_player ) )
 
 	vert_spd = vert_spd + _gravity;
 
-	if( place_meeting( x, y + 1, obj_wall )  && ( jump ) ) 
+	if( place_meeting( x, y + 1, obj_wall ) ) 
 	{
-		vert_spd = -7;
+		if( jump )
+		{
+			vert_spd = -7;	
+		}
+		else
+		{
+			if( horizontal_spd == 0 )
+			{
+				sprite_index = spr_player_idle;	
+			}
+			else if( sign( horizontal_spd ) == 1 )
+			{
+				image_xscale = 1;
+				sprite_index = spr_player_walking;	
+			}
+			else if( sign( horizontal_spd ) == -1 )
+			{
+				image_xscale = -1;
+				sprite_index = spr_player_walking;
+			}
+		}
+		
 	}
 
 	if( place_meeting( x + horizontal_spd, y, obj_wall ) )
 	{
 		while( !place_meeting( x + sign( horizontal_spd ), y, obj_wall ) )
 		{
+			
 			x = x + sign( horizontal_spd );	
 		}
-	
+		
 		horizontal_spd = 0;
 	}
 

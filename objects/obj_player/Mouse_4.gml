@@ -1,1 +1,1 @@
-curr_health -= 25;
+global.curr_health -= 25;

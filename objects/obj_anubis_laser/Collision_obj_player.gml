@@ -1,3 +1,3 @@
 instance_destroy();
 
-obj_player.curr_health -= 8;
+global.curr_health -= 8;

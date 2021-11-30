@@ -14,3 +14,9 @@ switch ( curr_state )
 	default:
 		break;
 }
+
+if(global.curr_health == 0)
+{
+	audio_stop_all();
+	room_goto(rm_lose);	
+}

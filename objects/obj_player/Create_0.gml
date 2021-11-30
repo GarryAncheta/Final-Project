@@ -4,7 +4,7 @@ _gravity = 0.3;
 walk_spd = 4;
 
 // health and damage
-curr_health = 100;
+global.curr_health = 100;
 max_health = 100; 
 
 health_bar_x = camera_get_view_x( 0 ) + 32;

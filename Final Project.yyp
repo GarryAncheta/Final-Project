@@ -65,6 +65,9 @@
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
     {"id":{"name":"obj_boss_body","path":"objects/obj_boss_body/obj_boss_body.yy",},"order":10,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"anubisDefaultState","path":"scripts/anubisDefaultState/anubisDefaultState.yy",},"order":0,},
+    {"id":{"name":"mummyDefaultState","path":"scripts/mummyDefaultState/mummyDefaultState.yy",},"order":0,},
+    {"id":{"name":"scarabDefaultState","path":"scripts/scarabDefaultState/scarabDefaultState.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},

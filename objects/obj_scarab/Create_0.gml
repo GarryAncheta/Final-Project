@@ -4,6 +4,7 @@ vert_spd = 0;
 _gravity = 0.3;
 walk_spd = 4;
 state = SCARABSTATE.DEFAULT;
+isHit = false;
 
 max_health = 75;
 curr_health = max_health;

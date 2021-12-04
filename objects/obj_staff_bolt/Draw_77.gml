@@ -13,6 +13,8 @@ if( scarab != noone )
 	with( scarab )
 	{
 		curr_health -= other.bolt_damage;
+		isHit = true;
+		alarm[1] = 3;
 	}
 }
 
@@ -22,6 +24,8 @@ if( mummy != noone )
 	with( mummy )
 	{
 		curr_health -= other.bolt_damage;	
+		isHit = true;
+		alarm[1] = 3;
 	}
 }
 
@@ -30,6 +34,8 @@ if( anubis != noone )
 	instance_destroy();
 	with( anubis )
 	{
-		curr_health -= other.bolt_damage;	
+		curr_health -= other.bolt_damage;
+		isHit = true;
+		alarm[1] = 3;
 	}
 }

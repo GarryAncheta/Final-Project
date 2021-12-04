@@ -1,4 +1,14 @@
-draw_self();
+if( !isHit )
+{
+	draw_self();
+
+}
+else if (isHit )
+{
+	gpu_set_fog( true, c_white, 0, 0 );
+	draw_self();
+	gpu_set_fog( false, c_white, 0, 0 );
+}
 
 var _x =  x - 16 ;
 var _y = y - 32;

@@ -2,7 +2,8 @@ enum PLAYERSTATE
 {
 	DEFAULT,
 	MELEE,
-	RANGE
+	RANGE,
+	SHIELD,
 }
 
 if( instance_exists( obj_player ) )

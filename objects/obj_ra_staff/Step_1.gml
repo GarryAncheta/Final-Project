@@ -11,9 +11,8 @@ if( mouse_check_button( mb_left ) )
 		alarm[0] = firing_speed;
 		with( instance_create_layer( x, y, "Shots", obj_staff_bolt ) )
 		{
-			show_debug_message( "Shot" );
 			speed = 25;
-			direction = other.image_angle + random_range( other.min_firing_accuracy, other.max_firing_accuracy );
+			direction = other.image_angle + random_range( global.min_firing_accuracy, global.max_firing_accuracy );
 			image_angle = direction;
 		}
 	}

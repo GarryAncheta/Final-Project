@@ -1,0 +1,1 @@
+bolt_damage = 25;

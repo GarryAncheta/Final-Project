@@ -36,7 +36,7 @@ function mummyDefaultState()
 			horizontal_spd = 0;
 		}
 
-	x = x + horizontal_spd;
+	//x = x + horizontal_spd;
 
 	if( place_meeting ( x, y + vert_spd, obj_wall ) )
 		{

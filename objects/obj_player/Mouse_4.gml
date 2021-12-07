@@ -1,1 +1,0 @@
-global.curr_health -= 25;

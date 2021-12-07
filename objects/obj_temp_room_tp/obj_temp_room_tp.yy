@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Hidden",
+    "path": "folders/Objects/Hidden.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_temp_room_tp",

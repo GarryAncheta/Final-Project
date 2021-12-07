@@ -11,6 +11,8 @@ switch ( curr_state )
 		break;
 	case PLAYERSTATE.RANGE:
 		break;
+	case PLAYERSTATE.SHIELD:
+		break;
 	default:
 		break;
 }

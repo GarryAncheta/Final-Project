@@ -1,4 +1,4 @@
 if (place_meeting(x, y, obj_player))
 {
-	room_goto(rm_second_level);	
+	room_goto(rm_lose);	
 }

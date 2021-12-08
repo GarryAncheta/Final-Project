@@ -39,7 +39,6 @@ function scarabDefaultState()
 		horizontal_spd = 0;
 	}
 
-	x = x + horizontal_spd;
 	
 	if( place_meeting ( x, y + vert_spd, obj_wall ) ||
 		place_meeting ( x, y + vert_spd, obj_wall ))

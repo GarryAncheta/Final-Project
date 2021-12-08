@@ -6,17 +6,8 @@ enum MUMMYSTATE
 
 function mummyDefaultState()
 {
-	if (distance_to_object(obj_player) < 350)
-	{
-		move_towards_point(obj_player.x, y, 2);
-	}
-
-	else if (distance_to_object(obj_player) > 350)
-	{
-		x = x;
-		y = y;
-		speed = 0;
-	}
+	horizontal_spd = 2;
+	
 	vert_spd = vert_spd + _gravity;
 
 	if ( place_meeting( x, y + 1, obj_wall ) && 
@@ -36,7 +27,6 @@ function mummyDefaultState()
 			horizontal_spd = 0;
 		}
 
-	//x = x + horizontal_spd;
 
 	if( place_meeting ( x, y + vert_spd, obj_wall ) )
 		{
@@ -48,5 +38,16 @@ function mummyDefaultState()
 			vert_spd = 0;	
 		}
 
-	y = y + vert_spd	
+	y = y + vert_spd
+	if (distance_to_object(obj_player) < 350 && horizontal_spd != 0)
+	{
+		move_towards_point(obj_player.x, y, horizontal_spd);
 	}
+
+	else if (distance_to_object(obj_player) > 350)
+	{
+		x = x;
+		y = y;
+		speed = 0;
+	}
+}

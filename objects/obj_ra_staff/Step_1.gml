@@ -17,3 +17,12 @@ if( mouse_check_button( mb_left ) )
 		}
 	}
 }
+
+if( ( image_angle > 90 ) && ( image_angle < 270 ) )
+{
+	image_yscale = -1;	
+}
+else
+{
+	image_yscale = 1;	
+}

@@ -1,5 +1,3 @@
-
-
 if( instance_exists( obj_player ) )
 {
 	move_direction = move_right - move_left;

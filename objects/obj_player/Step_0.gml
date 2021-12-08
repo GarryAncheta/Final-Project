@@ -7,7 +7,8 @@ switch ( curr_state )
 	case PLAYERSTATE.DEFAULT:
 		PlayerDefaultState();
 		break;
-	case PLAYERSTATE.MELEE:
+	case PLAYERSTATE.HURT:
+		PlayerStateHurt();
 		break;
 	case PLAYERSTATE.RANGE:
 		break;

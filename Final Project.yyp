@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"PlayerDefaultState","path":"scripts/PlayerDefaultState/PlayerDefaultState.yy",},"order":0,},
+    {"id":{"name":"PlayerStateHurt","path":"scripts/PlayerStateHurt/PlayerStateHurt.yy",},"order":5,},
     {"id":{"name":"obj_anubis_laser","path":"objects/obj_anubis_laser/obj_anubis_laser.yy",},"order":0,},
     {"id":{"name":"rm_first_level","path":"rooms/rm_first_level/rm_first_level.yy",},"order":1,},
     {"id":{"name":"spr_shield_bar_bg","path":"sprites/spr_shield_bar_bg/spr_shield_bar_bg.yy",},"order":5,},

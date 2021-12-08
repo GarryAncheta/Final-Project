@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 28,
+  "bbox_left": 1,
+  "bbox_right": 31,
   "bbox_top": 12,
-  "bbox_bottom": 17,
+  "bbox_bottom": 16,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -27,6 +27,27 @@
     {"compositeImage":{"FrameId":{"name":"2380b9d8-fb90-4587-80d4-59a71b8dd21a","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"2380b9d8-fb90-4587-80d4-59a71b8dd21a","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"2380b9d8-fb90-4587-80d4-59a71b8dd21a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fa72f675-096d-41ce-a26a-cc5f1762bc34","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fa72f675-096d-41ce-a26a-cc5f1762bc34","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"fa72f675-096d-41ce-a26a-cc5f1762bc34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4fa3eed8-3f61-4e6d-a511-a8bfb9d6e910","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4fa3eed8-3f61-4e6d-a511-a8bfb9d6e910","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"4fa3eed8-3f61-4e6d-a511-a8bfb9d6e910","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"298abecc-9673-4178-b0b7-054b1efebf70","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"298abecc-9673-4178-b0b7-054b1efebf70","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"298abecc-9673-4178-b0b7-054b1efebf70","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"08f65c3a-95de-4a01-976c-d351f2f879c1","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"08f65c3a-95de-4a01-976c-d351f2f879c1","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"08f65c3a-95de-4a01-976c-d351f2f879c1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5931f1a6-95ed-4ef1-9bfd-f6f6f2096927","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5931f1a6-95ed-4ef1-9bfd-f6f6f2096927","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"5931f1a6-95ed-4ef1-9bfd-f6f6f2096927","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3fb92ea8-3841-46f2-b055-d7e2bfa55921","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3fb92ea8-3841-46f2-b055-d7e2bfa55921","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"3fb92ea8-3841-46f2-b055-d7e2bfa55921","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"08589fa2-3941-4b52-892d-023eecc9e601","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"08589fa2-3941-4b52-892d-023eecc9e601","path":"sprites/spr_laser_2/spr_laser_2.yy",},"LayerId":{"name":"55319037-5744-4f9d-b6e4-01b8587daf98","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","name":"08589fa2-3941-4b52-892d-023eecc9e601","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_laser_2","path":"sprites/spr_laser_2/spr_laser_2.yy",},
@@ -36,12 +57,19 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 8.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"71037c7c-c826-47f9-9d74-f3d12869876d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2380b9d8-fb90-4587-80d4-59a71b8dd21a","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7163bd21-d702-476b-b6f9-2becde0de32d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa72f675-096d-41ce-a26a-cc5f1762bc34","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a4f261f9-2c3a-42d7-abe6-c936c1263eae","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4fa3eed8-3f61-4e6d-a511-a8bfb9d6e910","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"69869f0c-3037-452c-b910-a9d021ad424c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"298abecc-9673-4178-b0b7-054b1efebf70","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"62d32855-509e-4286-b33d-bb0b5e33c9e1","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08f65c3a-95de-4a01-976c-d351f2f879c1","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"739433e1-bf14-4f82-8a5e-7c453f9f3647","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5931f1a6-95ed-4ef1-9bfd-f6f6f2096927","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bbc5559c-59f8-4f05-bf18-125841c0886e","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3fb92ea8-3841-46f2-b055-d7e2bfa55921","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7be9f235-e355-4666-bc83-4011e8ee0198","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08589fa2-3941-4b52-892d-023eecc9e601","path":"sprites/spr_laser_2/spr_laser_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

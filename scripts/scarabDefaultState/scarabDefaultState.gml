@@ -9,7 +9,7 @@ function scarabDefaultState()
 	var can_jump = false;
 	if (distance_to_object(obj_player) < 350)
 		{
-			move_towards_point(obj_player.x, y, 2);
+			move_towards_point(obj_player.x, y, 1);
 			can_jump = true;
 		}
 

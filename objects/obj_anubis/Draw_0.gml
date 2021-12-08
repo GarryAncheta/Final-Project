@@ -7,6 +7,7 @@ else if (isHit )
 {
 	gpu_set_fog( true, c_white, 0, 0 );
 	draw_self();
+	audio_play_sound(snd_anubis_shot, 10, false);
 	gpu_set_fog( false, c_white, 0, 0 );
 }
 

@@ -40,6 +40,12 @@ if( instance_exists( obj_player ) )
 		}
 		
 	}
+	
+	if( place_meeting( x + horizontal_spd, y, obj_mummy ) || place_meeting( x + horizontal_spd, y, obj_scarab ) )
+	{
+		horizontal_spd = -sign(horizontal_spd) * 64;
+		global.curr_health -= 5;
+	}
 
 	if( place_meeting( x + horizontal_spd, y, obj_wall ) )
 	{
@@ -51,6 +57,7 @@ if( instance_exists( obj_player ) )
 		
 		horizontal_spd = 0;
 	}
+	
 
 	x = x + horizontal_spd;
 

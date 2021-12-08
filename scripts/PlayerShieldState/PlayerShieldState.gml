@@ -2,6 +2,11 @@
 
 if( instance_exists( obj_player ) )
 {
+	
+	if( global.curr_shield <= 0 )
+	{
+		obj_player.curr_state = PLAYERSTATE.DEFAULT;
+	}
 	move_direction = move_right - move_left;
 
 	horizontal_spd = move_direction * walk_spd;
@@ -19,17 +24,17 @@ if( instance_exists( obj_player ) )
 		{
 			if( horizontal_spd == 0 )
 			{
-				sprite_index = spr_player_idle;	
+				sprite_index = spr_player_idle_shielded;	
 			}
 			else if( sign( horizontal_spd ) == 1 )
 			{
 				image_xscale = 1;
-				sprite_index = spr_player_walking;	
+				sprite_index = spr_player_walking_shielded;	
 			}
 			else if( sign( horizontal_spd ) == -1 )
 			{
 				image_xscale = -1;
-				sprite_index = spr_player_walking;
+				sprite_index = spr_player_walking_shielded;
 			}
 		}
 		
@@ -37,8 +42,19 @@ if( instance_exists( obj_player ) )
 	
 	if( place_meeting( x + horizontal_spd, y, obj_mummy ) || place_meeting( x + horizontal_spd, y, obj_scarab ) )
 	{
-		horizontal_spd = -sign(horizontal_spd) * 64;
-		global.curr_health -= 5;
+		with( obj_player )
+		{
+			if( !invincible )
+			{
+				global.curr_health -= 5;	
+			}
+			
+			invincible = true;
+			alarm[1] = room_speed / 2;
+			hitFrom = other.direction;
+			direction = hitFrom;
+			vert_spd += -4;
+		}
 	}
 
 	if( place_meeting( x + horizontal_spd, y, obj_wall ) )

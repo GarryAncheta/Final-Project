@@ -5,14 +5,19 @@ jump = keyboard_check_pressed( vk_space ) || keyboard_check_pressed( ord( "W" ) 
 switch ( curr_state )
 {
 	case PLAYERSTATE.DEFAULT:
-		PlayerDefaultState();
+		if( !shielded )
+		{
+			alarm[0] = room_speed / 2;
+		}
+		
+		PlayerMovement();
 		break;
 	case PLAYERSTATE.HURT:
+		PlayerMovement();
 		PlayerStateHurt();
 		break;
-	case PLAYERSTATE.RANGE:
-		break;
 	case PLAYERSTATE.SHIELD:
+		PlayerShieldState();
 		break;
 	default:
 		break;

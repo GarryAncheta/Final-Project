@@ -21,4 +21,4 @@ if (venom_type == 1)
 	}
 }
 
-venom_speed = 2;
+venom_speed = 2.5;

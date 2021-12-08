@@ -12,7 +12,7 @@ if (laser_type == 1)
 	object_set_sprite(obj_laser, spr_laser_2);
 }
 
-laser_speed = 5;
+laser_speed = 6;
 
 goto = true;
 if (goto == true)

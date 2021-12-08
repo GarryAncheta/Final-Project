@@ -1,7 +1,7 @@
 function execute_melee(){
 	if (!instance_exists(obj_melee))
 	{
-		instance_create_depth( 535, 515, 1, obj_melee);
+		instance_create_depth( 535, 518, 1, obj_melee);
 	}
 }
 
@@ -42,5 +42,6 @@ function execute_venom(){
 }
 
 function execute_laser(){
+	playLaserSound();
 	instance_create_depth(700, 200, 8, obj_laser);
 }
